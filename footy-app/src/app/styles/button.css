@@ -1,0 +1,27 @@
+.button {
+  border-radius: 3px;
+  color: black;
+  background-color: white;
+  transition: all 0.08s ease;
+}
+
+.button-normal {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.button:hover {
+  background-color: rgb(229, 229, 229);
+}
+
+.button:active {
+  background-color: rgb(199, 199, 199);
+  padding-top: 7px;
+  padding-bottom: 3px;
+}
+
+.button-fill {
+  width: 100%;
+  padding: 5px 0;
+}
